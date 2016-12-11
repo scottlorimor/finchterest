@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def hello
-    render :html "HOW THE OTHER HALF LIVE."
+    render html: "HOW THE OTHER HALF LIVE."
   end
 end
