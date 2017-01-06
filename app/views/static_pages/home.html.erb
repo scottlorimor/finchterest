@@ -1,4 +1,4 @@
-<html style="text-align: center; background-color: #e6dcd1">
+<!-- <html style="text-align: center; background-color: #e6dcd1">
 	<div id="bg">
 		<img src="cory_galifinakis.jpg" alt="Finchinakis" height="500" width="400">
 	</div>
@@ -8,4 +8,33 @@
 		</li>
 	</ul>
 	
+</html>
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Finchterest</title>
+</head>
+<body class="home">
+	<div class="container">
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-pills pull-right">
+					<li><%= link_to "Home", root_path, class: "active", role: "presentation" %></li>
+					<li><%= link_to("Hopes & Dreams", hopes_and_dreams_path , class: "active", role: "presentation")%></li>
+					<li><%= link_to("How The Other Half Lives", how_the_other_half_lives_path , class: "active", role: "presentation") %></li>
+				</ul>
+			</nav>
+			<h3 class="text-muted">Finchterest</h3>
+		</div>
+
+		<div class="jumbotron">
+			<img src="cory_galifinakis.jpg" alt="Finchinakis" height="400" width="300" class="img-circle">
+			<p class="lead quote"><bold>Can someone let me borrow a can of scrubbing bubbles? I'm not wasted. This is a serious post.</bold></p>
+			<p><a class="btn btn-primary" href="#">Sign up</a></p>		
+		</div>
+	</div>
+</body>
 </html>

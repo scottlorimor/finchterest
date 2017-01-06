@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # get 'static_pages/home'
   # root 'application#hello'
   root 'static_pages#home'
-  get '/how_the_other_half_live', to: 'static_pages#how_the_other_half_live' 
+  get '/how_the_other_half_lives', to: 'static_pages#how_the_other_half_lives' 
   get '/hopes_and_dreams', to: 'static_pages#hopes_and_dreams'
 
 

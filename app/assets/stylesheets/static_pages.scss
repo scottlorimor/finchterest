@@ -1,3 +1,97 @@
-// Place all the styles related to the StaticPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body.home {
+  margin: 0;
+  background: url('http://4.bp.blogspot.com/-Jx21kNqFSTU/UXemtqPhZCI/AAAAAAAAh74/BMGSzpU6F48/s1600/funny-cat-pictures-047-001.jpg');
+  background-size: 300px 300px;
+  /* background-repeat:no-repeat; */
+  display: compact;
+}
+
+body#htohl {
+  margin: 0;
+  background: url('http://thumbs.media.smithsonianmag.com//filer/3f/09/3f09f19b-c12c-4ed6-970c-90bc88cd82fd/5-riis-children-mulberry.jpg__1072x0_q85_subject_location-633,615_upscale.jpg') center center;
+  background-repeat:no-repeat;
+  
+}
+
+/* tmp stuff */
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+img {
+	padding-bottom: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  /* border-bottom: 1px solid #e5e5e5; */
+  color: white;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  color: white;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  padding-top: 5px;
+  background: transparent;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.jumbotron .quote {
+	color: white;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
